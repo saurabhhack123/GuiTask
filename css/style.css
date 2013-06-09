@@ -1,0 +1,153 @@
+body{	
+ font-family: Comic ;	
+  }
+#redline{
+background-color: red;
+width: 1290px;
+height: 5px;
+}
+#box1,#box2{
+   margin:0;
+   padding:0;
+ } 
+#box1{
+  width: 1290px;
+  height: 50px;
+  background-color: rgb(245, 243, 239);
+}
+
+#box1 img{
+ width: 50px;
+ height: 44px;
+ margin: 0 1000px 0 90px;
+ } 
+
+#box2{
+	background-color: white;
+	width: 100%;
+	height: 92px;
+    clear: both;
+ } 
+
+#box2 img{
+	width:50px;
+	height:90px;
+	float: left;
+	margin: 0 4px 0 92px;
+ }
+
+h2{ color: #aba4ac; }
+h4{ color:#bbb4ac; }
+
+h4 span{
+	color:black;
+	font-size: 12px;
+  }
+
+#lborder
+ {
+ position: relative;
+ margin-left: 115px;	
+ border-left: 1px solid #aba4ac;
+ height: 500px;
+ width:1290px;
+ }
+
+#Main_body{	margin-left: 200px; }
+
+#row,#buttons, li{	display: inline; }
+
+#small{
+font-size: 12px;
+color: #c5c5c5;	
+}
+
+input{
+	margin: 10px 0 0 43px;
+	width: 170px;
+	height: 30px;
+	border: 1px solid #aba4ac;
+	text-align: center;
+	-moz-box-shadow: 5px 5px 5px #888888;         
+	-webkit-box-shadow: 5px 5px 5px #888888;
+	-ms-box-shadow: 5px 5px 5px #888888;
+	box-shadow: 5px 5px 5px #888888;
+   }
+
+a{
+	margin-left:360px;
+	font-size: 12px;
+ }
+
+#buttons input:first-child,#buttons input:last-child,#submit_button{
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -ms-border-radius: 0.3em;
+  border-radius: 0.3em;
+ }
+
+#buttons input:first-child,#submit_button{ color: #fff; }
+
+#buttons input:first-child{
+width: 70px;
+height: 20px;
+background-color: green;
+text-align: center;
+margin:0 0 2px 42px;
+ }
+
+#buttons input:last-child{
+ width: 80px;
+ height: 20px;
+ text-align: center;
+ margin: 0 0 2px 0;
+ }
+
+#hborder{
+	margin: 0 395px o 45px;
+	border-top:1px solid #c6c6c6;
+	margin-bottom: 10px;
+  }
+
+#submit_button{
+  margin: 0 0 10px 250px;
+  background: #db4b39;
+  width: 190px;
+  height: 30px;
+ }
+
+hr{
+	margin: 0 295px 0 25px; 
+	border-top:1px solid #c6c6c6;
+ }
+
+p{	margin-left: 120px;}
+
+#dropdown1,#dropdown2{
+font-size: 13px;
+position: absolute;
+margin-left:43px;;
+display: none;
+width: 140px;
+}
+
+#dropdown1{ left:200px; }
+#dropdown2{	left:472px; }
+
+
+#error1,#error2,#error3,#error4{
+	color:purple;
+	background-color: #aba4ac;
+  }
+#error1{	
+	margin: 0 0 0 80px;
+  }
+#error2{
+    margin: 0 500px 0 160px; 
+  }
+#error3{
+	margin: 25px 0 0 80px ;
+  }
+#error4{
+   	margin: 25px 500px 0 80px ;
+  }

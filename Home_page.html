@@ -1,0 +1,122 @@
+
+<html>
+    <head>
+	 <title>Redbus HomePage</title>
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+     <!-- placeholder js file should be put at top -->
+     <script type="text/javascript" src="js/myphold.js"></script>	
+
+	</head>
+<body>
+ <div id="redline">
+ 
+ </div>
+ <div id="box1">
+ 	<img src="images/logo.png">
+ </div>	
+
+ <div id="box2">
+ <img src="images/search_icon.png" id="logo2">
+ <h2>SEARCH BUSES</h2>
+          <h4>Search buses and book bus tickets with <span>Zero booking tictets
+                                                    </span>
+          </h4>
+ </div>
+
+<div id="lborder">
+
+<div id="Main_body">
+
+
+<ul id="row">
+	<li>
+       <label>From</label>&nbsp;&nbsp;<label id="small">(for ex. Bangalore)</label>
+
+                                                                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+       <label>To</label>&nbsp;&nbsp;<label id="small">(for ex. Chennai)</label><br>
+
+    </li>
+  
+   <li>
+       <input type="text"  id="edit1" name="edit1" onkeyup=showList1(this) >
+
+       </input> 
+                                                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <!-- Dropdown Hack starts here -->
+      <div id="dropdown1" > 
+          <SELECT id="listbox1" size=4 name="listbox1" onclick=selVal1(this) style="width:175px;"></SELECT> 
+      </div> 
+
+      <input type="text" placeholder="Enter a city name" id="edit2" name="edit2" onkeyup=showList2(this) >
+
+      </input>
+     
+      <div id="dropdown2" > 
+            <SELECT id="listbox2" size=4 name="listbox2" onclick=selVal2(this) style="width:175px;"></SELECT> 
+      </div> 
+                    <br>
+         <a href="">can't find a route tell us</a>
+   </li>
+      <br>
+      <br>
+</ul>
+
+<ul id="row">
+	 <li>
+        <label>Date of Journey</label>  
+                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label>Date of Return</label><br>
+     </li>
+     
+     <li>
+           <input type="text" id="doj" ></input> 
+                                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <input type="text" id="opt"></input><br>
+</li>
+</ul>
+<br>
+
+  <div id="buttons">
+            <input type="submit" value="Today" ></input>
+            <input type="submit" value="Tommorow"></input>
+  </div>
+
+  <br >
+  <br >
+  <br >
+<!-- Horizontal border -->
+ <div id="hborder">
+ </div>
+ 
+            <input type="submit" value="Search Buses" id="submit_button" onclick="ValidateForm()">
+            </input>
+    <br>
+    <br>
+<hr/>
+<p>Get Rs. 50 off on Your booking using Axis credit &amp; debit cards.</p>
+ <span id="error1"></span>
+ <span id="error2"></span>
+ <span id="error3"></span>
+ <span id="error4"></span>
+ </div>
+ </div> 	
+
+
+
+<script type="text/javascript">
+  initPlaceHolder(document.getElementById("edit1"), "Enter city name");
+  initPlaceHolder(document.getElementById("edit2"), "Enter city name");
+  initPlaceHolder(document.getElementById("doj"), "mm/dd/yyyy");
+  initPlaceHolder(document.getElementById("opt"), "Optional");
+</script>
+
+
+     <script type="text/javascript" src="js/myauto1.js"></script>
+     <script type="text/javascript" src="js/myauto2.js"></script>
+     <script type="text/javascript" src="js/valid.js"></script>
+
+
+</body>
+
+</html>
